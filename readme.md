@@ -1,4 +1,4 @@
-### NodeJS Introduction
+## NodeJS Introduction
 
 Toby Dussek - Framework Training
 
@@ -16,7 +16,7 @@ November 9-11 2026
 * visual studio code: pick a folder, and open it with vsc
 * introducing NodeJS
 * course repo (all my code will be here)
-    https://github.com/onionmccabbage/NodeJS_Nov2026
+  - https://github.com/onionmccabbage/NodeJS_Nov2026
 * servers and files (microservices)
 - the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
@@ -51,32 +51,27 @@ November 9-11 2026
 * test-driven development and robust coding
 * ES features: classes, rest, fn etc.
 * Typescript is important...
-  npm install -g tsc // the typescript compiler
-  npm install -g ts-node // to 'run' ts files (actually runs the js file)
-  also see tsconfig.json
-  https://typescriptlang.org
-
-
-Naming assets (files. folder, variables, functions)
-- letters, numbers, underscore
-- dont start with a digit
+  - npm install -g tsc // the typescript compiler
+  - npm install -g ts-node // to 'run' ts files (actually runs the js file)
+  - also see tsconfig.json
+  - https://typescriptlang.org
+* Naming assets (files. folder, variables, functions)
+  - letters, numbers, underscore
+  - dont start with a digit
 
 #### Wednesday
 * the event loop (also remember sync operations which will block)
 * Node events
 * Web and webpack (briefly)
 * Observables see https://rxjs.dev and https://rxmarbles.com/
-- responding to events and handling errors
+* responding to events and handling errors
 * features:
-  see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
-* Express.js for convenient server-side features
-* Express architecture: server, index, middleware
-- buffers and streams
-- review exercise (inc. optional testing)
-
-Questions:
+  - see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
 * node version manager and nvmrc (also .nvmrc)
 * the build command
+* Express.js for convenient server-side features
+* Express architecture: server, index, middleware
+* buffers and streams
+* review exercise (inc. optional testing)
 
 end of course feedback
-  https://forms.cloud.microsoft/e/7QZfPEw71T
