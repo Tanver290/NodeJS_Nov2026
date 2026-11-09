@@ -10,21 +10,21 @@ const writeContent = (e='default')=>{
         console.info(`${e} has been written to file`)
     })
 }
-// reading data back (here we specify the encoding as utf8 the default)
-fs.readFile('eample.txt', 'utf8', (err, data)=>{
-    if (err){
-        console.error(err)
-    }
-    console.log(data)
-} )
 
+function readfile(){
+    // reading data back (here we specify the encoding as utf8 the default)
+    fs.readFile('eample.txt', 'utf8', (err, data)=>{
+        if (err){
+            console.error(err)
+        }
+        console.log(data)
+    } )
+}
 
-
-
-
-// we need to call the function (invoke it)
+// we need to call the functions (invoke them)
 writeContent('something')
 writeContent('more content')
 writeContent('results')
 writeContent('.....')
 writeContent() // what happens?
+readfile()

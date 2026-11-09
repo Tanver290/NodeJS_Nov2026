@@ -5,7 +5,7 @@ Toby Dussek - Framework Training
 November 9-11 2026
 
 * 9:30 start
-* 11:00 coffee until 11:16
+* 11:00 coffee until 11:15
 * 12:30 lunch until 1:30
 * 3:00 Tea
 * 4:30 end
