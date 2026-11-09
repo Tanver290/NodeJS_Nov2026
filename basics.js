@@ -1,6 +1,14 @@
 // this is a Node JS File
 // everythnig we write is JavaScript (ECMAScript or ES)
-//
+// the nature of Node
+// Node Package Manager: npm
+// Execute JavaScript outside a browser
+// Node comes from...  Chrome
+// NodeJS is the V8 Javascript engine from the Chrome browser
+// So when we run NodeJS there is no browser
+// this means there is no console
+// Also, there is no window, no document and no browser (WOM, DOM, BOM)
+
 
 // declaring variables
 var old  = 3 // we can still use this ancient syntax
@@ -24,8 +32,9 @@ const fn = (x)=>{
 // there are some use-cases where we are oblgd to use the 'function' keyword
 
 // making use of variables, const and functions
-console.log( old, modern, also )
-console.log( trad(3), fn(4) )
+console.log( old, modern, also ) // careful on older Node there is no console to write to!!!
+console.log( trad(3), fn(4) ) // this uses an emulated console
+
 
 // a common pattern is to make our code run in a loop
 const run = (n)=>{
